@@ -7,7 +7,7 @@ MATCH examID=1 && sandbox=false && ratio > 10
 SORT percent -1
 LOOKUP users userID:_id as user
 SET user=user[0]
-PROJECT percent=1 user=1 ratio=1
+PROJECT percent user ratio
 ```
 equals 
 ```js
