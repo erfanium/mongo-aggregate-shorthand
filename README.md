@@ -1,5 +1,5 @@
 # mongo-aggregate-shorthand
-A short-hand tool for creating mongodb aggregates! Great for analytics stuff with mongodb
+A short-hand system for creating Mongodb aggregates! Great for analytics stuff with Mongodb
 
 ## Example
 ```sh
