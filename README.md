@@ -44,8 +44,8 @@ equals
             user: 1,
             ratio: 1,
          },
-      },
-   ]
+      }
+]
 ```
 
 ## Stage
