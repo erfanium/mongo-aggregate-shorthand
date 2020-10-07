@@ -3,7 +3,7 @@ A short-hand tool for creating mongodb aggregates! Great for analytics stuff wit
 
 ## Example
 ```sh
-MATCH examID=1 && sandbox=false
+MATCH examID=1 && sandbox=false && ratio > 10
 SORT percent -1
 LOOKUP users userID:_id as user
 SET user=user[0]
@@ -15,7 +15,8 @@ equals
       {
          $match: {
             examID: exam._id,
-            sandbox: false
+            sandbox: false,
+            ratio: { $gt: 10 }
          },
       },
 
