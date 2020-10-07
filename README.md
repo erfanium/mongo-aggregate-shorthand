@@ -14,7 +14,7 @@ equals
 [
       {
          $match: {
-            examID: exam._id,
+            examID: 1,
             sandbox: false,
             ratio: { $gt: 10 }
          },
