@@ -1,0 +1,37 @@
+{
+  "name": "mongo-aggregate-shorthand",
+  "version": "0.0.0",
+  "description": "A tool to create MongoDB aggregate pipelines easier and faster",
+  "main": "index.js",
+  "scripts": {
+    "repl": "cross-env NODE_PATH=. ts-node repl.ts",
+    "file": "cross-env NODE_PATH=. ts-node file.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erfanium/mongo-aggregate-shorthand.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "aggregate",
+    "pipelines",
+    "shorthand"
+  ],
+  "author": "ERFANIUM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erfanium/mongo-aggregate-shorthand/issues"
+  },
+  "homepage": "https://github.com/erfanium/mongo-aggregate-shorthand#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.10.0"
+  },
+  "dependencies": {
+    "@types/node": "^14.11.5",
+    "cross-env": "^7.0.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}

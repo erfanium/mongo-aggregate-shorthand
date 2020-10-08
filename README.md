@@ -48,5 +48,12 @@ equals
 ]
 ```
 
+## Usage: 
+clone repo and:
+install dependencies:
+```sh
+npm i
+```
+
 ## Stage
-Idea, Give us your opinion!
+Implementation, Give us your opinion!

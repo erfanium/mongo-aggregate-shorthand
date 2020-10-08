@@ -1,0 +1,26 @@
+{
+   "compileOnSave": false,
+   "compilerOptions": {
+      "experimentalDecorators": true,
+      "allowJs": false,
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "target": "es2020",
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "pretty": true,
+      "lib": ["es2020"],
+      "paths": {
+         "*": ["*", "node_modules/*"]
+      },
+      "typeRoots": ["./node_modules/@types", "./typings"],
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "resolveJsonModule": true,
+      "emitDecoratorMetadata": true
+   },
+   "include": ["."]
+}
