@@ -61,7 +61,7 @@ npm run file example.txt
 
 - REPL mode:
 ```sh
-npm run cli
+npm run repl
 ```
 
 ## Stage
