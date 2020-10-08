@@ -49,10 +49,19 @@ equals
 ```
 
 ## Usage: 
-clone repo and:
-install dependencies:
+clone repo then:
+- Install dependencies:
 ```sh
 npm i
+```
+- To parse from file:
+```sh
+npm run file example.txt
+```
+
+- REPL mode:
+```sh
+npm run cli
 ```
 
 ## Stage
